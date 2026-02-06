@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla Todo App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main class="container">
+        <div class="todo-card">
+            <header>
+                <h1>Task Manager</h1>
+            </header>
+
+            <form id="todo-form">
+                <div class="input-main">
+                    <input type="text" id="task-input" placeholder="What needs to be done?" autocomplete="off" required />
+                    <button type="submit" id="add-btn">Add</button>
+                </div>
+                <div class="input-details">
+                    <input type="text" id="category-input" placeholder="Category (Optional)" />
+                    <input type="date" id="date-input" />
+                </div>
+            </form>
+            
+            <section class="filters">
+                <input type="text" id="search-input" placeholder="Search tasks..." />
+                <select id="status-filter">
+                    <option value="all">All Status</option>
+                    <option value="active">Active</option>
+                    <option value="completed">Completed</option>
+                </select>
+            </section>
+
+            <ul class="list" id="todo-list"></ul>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
