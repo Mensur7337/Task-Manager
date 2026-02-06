@@ -1,4 +1,4 @@
-<img width="783" height="742" alt="image" src="https://github.com/user-attachments/assets/a745d4df-a890-405b-9873-489b73b0875a" />
+<img width="350" height="420" alt="image" src="https://github.com/user-attachments/assets/a745d4df-a890-405b-9873-489b73b0875a" />
 
 
 # 📝 Vanilla JavaScript Todo App
